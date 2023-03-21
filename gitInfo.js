@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "Git is a tool to track and save changes to code on your local system allowing multiple devolopers to work on the same code.";
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "gitHub is an internet hosting service for git.";
 
 //////////////////PROBLEM 3////////////////////
 /*
