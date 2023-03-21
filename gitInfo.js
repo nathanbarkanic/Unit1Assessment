@@ -25,7 +25,7 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = "git init creates a new Git repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = "git clone creates a copy of a repository."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = "git status displays the state of the working directory and the staging area."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,8 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "git add adds a change in the working directory to the staging area"
+const gitAddCode = "$ git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,8 +64,8 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
-
+const gitCommitDefinition = "git commit captures a snapshot, or save, of the project's currently staged changed"
+const gitCommitCode = "$ git commit"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +73,4 @@ const gitHubDefinition = "gitHub is an internet hosting service for git.";
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = "git push is used to upload a local repository to a remote repository"

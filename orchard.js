@@ -49,7 +49,16 @@ const pinkPrice = .55
     Log `totalAcres` to the console.
 */
 
-// CODE HERE
+const totalApples = [...fujiAcres, ...galaAcres, ...pinkAcres]
+console.log(totalApples)
+let totalAcres = 0
+for (let i =0; i < totalApples.length; i++)
+{
+    totalAcres += totalApples[i]; 
+}
+console.log(totalAcres)
+
+
 
 
 
@@ -67,8 +76,8 @@ const pinkPrice = .55
     Log `averageDailyAcres` to the console.
 */
 
-// CODE HERE
-
+const averageDailyAcres = totalAcres / 7
+console.log(averageDailyAcres)
 
 
 
@@ -105,7 +114,10 @@ const pinkPrice = .55
 let acresLeft = 174 
 let days = 0
 
-// CODE HERE
+while (acresLeft > 0){
+    days +=1 && acresLeft - averageDailyAcres;
+}
+console.log(days)
 
 
 
@@ -133,9 +145,13 @@ let days = 0
     values to the new arrays.
 */
 
-// CODE HERE
-
-// let fujiTons =
+let fujiTons = [fujiAcres.slice()]
+for(let i = 0; i < fujiTons;)
+console.log(fujiTons)
+let galaTons = [galaAcres.slice()]
+console.log(galaTons)
+let pinkTons = [pinkAcres.slice()]
+// let fujiTons = 
 // let galaTons =
 // let pinkTons =
 
