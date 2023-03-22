@@ -145,12 +145,18 @@ console.log(days)
     values to the new arrays.
 */
 
-let fujiTons = [fujiAcres.slice()]
-for(let i = 0; i < fujiTons;)
+let fujiTonsCopy = [fujiAcres.slice(0, 6)]
+console.log(fujiTonsCopy)
+let fujiTons = 0
+for (let i =0; i < fujiTonsCopy.length; i++)
+{
+    fujiTonsCopy * fujiTons;
+}
 console.log(fujiTons)
-let galaTons = [galaAcres.slice()]
+
+let galaTons = [galaAcres.slice(0, 6)]
 console.log(galaTons)
-let pinkTons = [pinkAcres.slice()]
+let pinkTons = [pinkAcres.slice(0, 6)]
 // let fujiTons = 
 // let galaTons =
 // let pinkTons =
